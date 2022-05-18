@@ -44,8 +44,8 @@ class Apple(arcade.Sprite) :
             
         self.center_x = random.randint(10, 480)
         self.center_y = random.randint(10, 480)
-        texture = arcade.load_texture("sib.jpg")
-        self.texture = texture
+        txc = arcade.load_texture("sib.jpg")
+        self.texture = txc
         self.scale = 0.09
 
   def on_draw(self):
