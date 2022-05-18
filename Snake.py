@@ -50,17 +50,6 @@ class Apple(arcade.Sprite) :
 
   def on_draw(self):
         arcade.draw_texture_rectangle(self.center_x, self.center_y, 30, 30, self.texture)  
-  #   self.color = arcade.color.RED_ORANGE
-  #   self.scale = 0.016
-    
-  #   texture = arcade.load_texture("a.png")
-  #   self.texture = texture
-    
-  #   self.center_x = random.randint(0, 600)
-  #   self.center_y = random.randint(0, 500)
-  
-  # def draw(self):
-  #   arcade.draw_texture_rectangle(self.center_x, self.center_y,30,30, self.color)  
     
   
   
